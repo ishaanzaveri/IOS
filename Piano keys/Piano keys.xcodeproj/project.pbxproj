@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0514682B69BCD21704BE5AB7 /* Pods_Piano_keys.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1ABD60C055FFB04F0D6C671 /* Pods_Piano_keys.framework */; };
+		4C29923D1F0D10B4003ED846 /* table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C29923C1F0D10B4003ED846 /* table.swift */; };
+		4CB23E831F0D105B004AB962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB23E821F0D105B004AB962 /* AppDelegate.swift */; };
+		4CB23E851F0D105B004AB962 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB23E841F0D105B004AB962 /* ViewController.swift */; };
+		4CB23E881F0D105B004AB962 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB23E861F0D105B004AB962 /* Main.storyboard */; };
+		4CB23E8A1F0D105C004AB962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CB23E891F0D105C004AB962 /* Assets.xcassets */; };
+		4CB23E8D1F0D105C004AB962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CB23E8B1F0D105C004AB962 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20000A04663093DAAB8CFE2E /* Pods-Piano keys.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Piano keys.release.xcconfig"; path = "Pods/Target Support Files/Pods-Piano keys/Pods-Piano keys.release.xcconfig"; sourceTree = "<group>"; };
+		4C29923C1F0D10B4003ED846 /* table.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = table.swift; sourceTree = "<group>"; };
+		4CB23E7F1F0D105B004AB962 /* Piano keys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Piano keys.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CB23E821F0D105B004AB962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CB23E841F0D105B004AB962 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CB23E871F0D105B004AB962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CB23E891F0D105C004AB962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CB23E8C1F0D105C004AB962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CB23E8E1F0D105C004AB962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9203CB86AA0D1D402A47C4A8 /* Pods-Piano keys.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Piano keys.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Piano keys/Pods-Piano keys.debug.xcconfig"; sourceTree = "<group>"; };
+		A1ABD60C055FFB04F0D6C671 /* Pods_Piano_keys.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Piano_keys.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CB23E7C1F0D105B004AB962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0514682B69BCD21704BE5AB7 /* Pods_Piano_keys.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CB23E761F0D105B004AB962 = {
+			isa = PBXGroup;
+			children = (
+				4CB23E811F0D105B004AB962 /* Piano keys */,
+				4CB23E801F0D105B004AB962 /* Products */,
+				651498721E4FD5080C4AD60D /* Pods */,
+				EA2870F7412622C12DB8CBBC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4CB23E801F0D105B004AB962 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CB23E7F1F0D105B004AB962 /* Piano keys.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CB23E811F0D105B004AB962 /* Piano keys */ = {
+			isa = PBXGroup;
+			children = (
+				4CB23E821F0D105B004AB962 /* AppDelegate.swift */,
+				4CB23E841F0D105B004AB962 /* ViewController.swift */,
+				4C29923C1F0D10B4003ED846 /* table.swift */,
+				4CB23E861F0D105B004AB962 /* Main.storyboard */,
+				4CB23E891F0D105C004AB962 /* Assets.xcassets */,
+				4CB23E8B1F0D105C004AB962 /* LaunchScreen.storyboard */,
+				4CB23E8E1F0D105C004AB962 /* Info.plist */,
+			);
+			path = "Piano keys";
+			sourceTree = "<group>";
+		};
+		651498721E4FD5080C4AD60D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9203CB86AA0D1D402A47C4A8 /* Pods-Piano keys.debug.xcconfig */,
+				20000A04663093DAAB8CFE2E /* Pods-Piano keys.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA2870F7412622C12DB8CBBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1ABD60C055FFB04F0D6C671 /* Pods_Piano_keys.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CB23E7E1F0D105B004AB962 /* Piano keys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CB23E911F0D105C004AB962 /* Build configuration list for PBXNativeTarget "Piano keys" */;
+			buildPhases = (
+				A014342243EE1FC2DD88747F /* [CP] Check Pods Manifest.lock */,
+				4CB23E7B1F0D105B004AB962 /* Sources */,
+				4CB23E7C1F0D105B004AB962 /* Frameworks */,
+				4CB23E7D1F0D105B004AB962 /* Resources */,
+				D68E9F790B30AEF218EACD5C /* [CP] Embed Pods Frameworks */,
+				BB1688E61194BD71E8ADB488 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Piano keys";
+			productName = "Piano keys";
+			productReference = 4CB23E7F1F0D105B004AB962 /* Piano keys.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CB23E771F0D105B004AB962 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ishaan ";
+				TargetAttributes = {
+					4CB23E7E1F0D105B004AB962 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5H9A8VDHZW;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4CB23E7A1F0D105B004AB962 /* Build configuration list for PBXProject "Piano keys" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CB23E761F0D105B004AB962;
+			productRefGroup = 4CB23E801F0D105B004AB962 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CB23E7E1F0D105B004AB962 /* Piano keys */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CB23E7D1F0D105B004AB962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CB23E8D1F0D105C004AB962 /* LaunchScreen.storyboard in Resources */,
+				4CB23E8A1F0D105C004AB962 /* Assets.xcassets in Resources */,
+				4CB23E881F0D105B004AB962 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A014342243EE1FC2DD88747F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB1688E61194BD71E8ADB488 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Piano keys/Pods-Piano keys-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D68E9F790B30AEF218EACD5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Piano keys/Pods-Piano keys-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CB23E7B1F0D105B004AB962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C29923D1F0D10B4003ED846 /* table.swift in Sources */,
+				4CB23E851F0D105B004AB962 /* ViewController.swift in Sources */,
+				4CB23E831F0D105B004AB962 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CB23E861F0D105B004AB962 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB23E871F0D105B004AB962 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CB23E8B1F0D105C004AB962 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CB23E8C1F0D105C004AB962 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CB23E8F1F0D105C004AB962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CB23E901F0D105C004AB962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CB23E921F0D105C004AB962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9203CB86AA0D1D402A47C4A8 /* Pods-Piano keys.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5H9A8VDHZW;
+				INFOPLIST_FILE = "Piano keys/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IshaanZaveri.Piano-keys";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4CB23E931F0D105C004AB962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20000A04663093DAAB8CFE2E /* Pods-Piano keys.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5H9A8VDHZW;
+				INFOPLIST_FILE = "Piano keys/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "IshaanZaveri.Piano-keys";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CB23E7A1F0D105B004AB962 /* Build configuration list for PBXProject "Piano keys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB23E8F1F0D105C004AB962 /* Debug */,
+				4CB23E901F0D105C004AB962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CB23E911F0D105C004AB962 /* Build configuration list for PBXNativeTarget "Piano keys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CB23E921F0D105C004AB962 /* Debug */,
+				4CB23E931F0D105C004AB962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CB23E771F0D105B004AB962 /* Project object */;
+}

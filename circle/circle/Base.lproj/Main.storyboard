@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="circle" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="lJs-ce-N7A" customClass="Circle_view" customModule="circle" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="3.1415926535900001" minValue="3.1415926535900001" maxValue="9.4247779607699993" translatesAutoresizingMaskIntoConstraints="NO" id="uM8-mu-rrf">
+                                        <rect key="frame" x="11" y="530" width="299" height="31"/>
+                                        <color key="minimumTrackTintColor" red="1" green="0.98554897890000004" blue="0.98194807939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="maximumTrackTintColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="slider:" destination="BYZ-38-t0r" eventType="valueChanged" id="QL7-ho-YH8"/>
+                                        </connections>
+                                    </slider>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M93-q8-8C5">
+                                        <rect key="frame" x="123.5" y="251" width="74.5" height="66"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                        <color key="textColor" red="1" green="0.98554897890000004" blue="0.98194807939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstItem="M93-q8-8C5" firstAttribute="centerX" secondItem="uM8-mu-rrf" secondAttribute="centerX" id="1YC-1N-azO"/>
+                                    <constraint firstItem="M93-q8-8C5" firstAttribute="centerY" secondItem="lJs-ce-N7A" secondAttribute="centerY" id="8Tv-kS-mQk"/>
+                                    <constraint firstItem="uM8-mu-rrf" firstAttribute="bottom" secondItem="lJs-ce-N7A" secondAttribute="bottomMargin" id="PI3-mZ-HOL"/>
+                                    <constraint firstItem="M93-q8-8C5" firstAttribute="centerX" secondItem="lJs-ce-N7A" secondAttribute="centerX" id="RVE-kU-D55"/>
+                                    <constraint firstItem="uM8-mu-rrf" firstAttribute="leading" secondItem="lJs-ce-N7A" secondAttribute="leading" constant="13" id="twg-iB-XQc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lJs-ce-N7A" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="SYy-5k-kDm"/>
+                            <constraint firstAttribute="trailing" secondItem="lJs-ce-N7A" secondAttribute="trailing" id="bbv-Nf-LyZ"/>
+                            <constraint firstItem="lJs-ce-N7A" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ops-Bn-9rf"/>
+                            <constraint firstItem="lJs-ce-N7A" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="zNs-Ir-saL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="circle" destination="lJs-ce-N7A" id="4on-b1-Zil"/>
+                        <outlet property="label" destination="M93-q8-8C5" id="kvF-oS-JTW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135" y="138.38028169014083"/>
+        </scene>
+    </scenes>
+</document>
